@@ -198,3 +198,4 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 ---
 
 Thomás da Costa - [https://thomasdacosta.com.br](https://thomasdacosta.com.br)
+"# desenvolvimento-software-mobile" 

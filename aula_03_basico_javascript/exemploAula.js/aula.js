@@ -45,3 +45,34 @@ console.log(texto.startsWith("Olá"));
 console.log(texto.endsWith("mundo!"));
 console.log(texto.includes("mundo"));
 console.log("abc".repeat(3));
+
+ //
+
+ let texto1 = "JavaScript é incrível!";
+ console.log(texto.charAt(4));
+
+let texto2 = "O subiu no telhado e depois pulou";
+console.log(texto2.indexOf("gato"));
+console.log(texto2.lastIndexOf("pulou"));
+
+let palavra1 = "abcdefgh";
+console.log(palavra1.substring(2,5));
+
+let texto3 = "Esta é uma string de exemplo.";
+console.log(texto3.slice(5,7));
+
+let lista = "maca,banana,laranja,uva,melancia";
+let frutas = lista.split(", ");
+console.log(frutas);
+
+let frase2 = "O rato roeu a roupa do rei de Roma";
+let novaFrase = frase2.replace("rato", "gato");
+console.log(novaFrase);
+
+let texto4 = "   Espaços em branco no início e no final   ";
+
+console.log(texto4.toUpperCase());
+console.log(texto4.toLowerCase());
+
+let texto5 = "   Espaços em branco no início e no final   ";
+console.log(texto5.trim());

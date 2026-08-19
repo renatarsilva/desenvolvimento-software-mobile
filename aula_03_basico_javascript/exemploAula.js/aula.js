@@ -168,3 +168,16 @@ const frutas = ["maça", "banana", "abacaxi"]
 for (let fruta of frutas){
     console.log(fruta)
 }
+
+class Pessoa{
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+    saudacao(){
+        console.log('olã meu nome é' + this.nome + 'eu tenhho' + this.idade + 'anos');
+    }
+}
+
+const pessoa1 = new Pessoa('joao', 25);
+pessoa1.saudacao();
